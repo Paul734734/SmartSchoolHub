@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎓 SmartSchool Hub - Système de Gestion Scolaire Complet
 
 ## 📋 Description
@@ -80,7 +81,7 @@ SmartSchoolHub/
 
 1. **Cloner le repository**
    ```bash
-   git clone https://github.com/votre-username/SmartSchoolHub.git
+   git clone https://github.com/Paul734734/SmartSchoolHub.git
    cd SmartSchoolHub
    ```
 
@@ -201,3 +202,4 @@ Ce projet est sous licence MIT.
 
 Configuré par défaut sur `Africa/Douala` (Cameroun).
 Modifiable dans `config/config.php` → `date_default_timezone_set(...)`.
+>>>>>>> 65bb57c18ac64a611922d93bbca39ae13b3bcf63
