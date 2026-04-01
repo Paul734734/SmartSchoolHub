@@ -1,0 +1,10 @@
+{
+  "name": "smartschoolhub/app",
+  "description": "SmartSchoolHub (PHP/MySQL) - PDF and utilities",
+  "type": "project",
+  "require": {
+    "php": ">=8.0",
+    "dompdf/dompdf": "^2.0"
+  }
+}
+

@@ -1,0 +1,146 @@
+# SmartSchool Hub - .gitignore
+
+# Fichiers de configuration sensibles
+config/config.php
+config/database.php
+.env
+.env.local
+.env.production
+
+# Logs et temporaires
+logs/
+temp/
+*.log
+*.tmp
+*.cache
+
+# Uploads et médias
+uploads/
+assets/uploads/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+
+# Fichiers de développement et test
+legacy/
+test_*.php
+debug_*.php
+fix_*.php
+ultimate_*.php
+final_*.php
+working_*.php
+corrected_*.php
+instant_*.php
+quick_*.php
+mega_*.php
+verify_*.php
+populate_*.php
+
+# Anciens dashboards et fichiers obsolètes
+dashboard_admin.php
+dashboard_admin_final.php
+dashboard_admin_fixed.php
+dashboard_fixed.php
+dashboard_parent_fixed.php
+dashboard_student_fixed.php
+dashboard_superadmin.php
+dashboard_teacher_fixed.php
+dashboard_template.php
+students_admin.php
+
+# Scripts temporaires
+complete_simulation.php
+perfect_simulation.php
+perfect_ultimate.php
+ultimate_final.php
+ultimate_fix.php
+ultimate_perfect_simulation.php
+mega_college_3000.php
+final_working_college.php
+final_working_fix.php
+fix_all_php_errors.php
+fix_final_issues.php
+fix_login_redirect.php
+fix_missing_tables.php
+fix_parentheses.php
+fix_sql_errors.php
+populate_demo_college.php
+
+# Fichiers de login temporaires
+login_test.php
+test_login.php
+test_login_fixed.php
+login_*.php
+
+# Fichiers de test
+test_access.php
+test_connection.php
+test_2fa.php
+debug_2fa.php
+verify_tables.php
+dashboards_summary.php
+
+# IDE et éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Composer et dépendances
+vendor/
+composer.lock
+
+# Node.js et npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Base de données
+*.sql
+*.db
+*.sqlite
+
+# Backup et archives
+*.zip
+*.tar.gz
+*.rar
+backup/
+
+# Cache et optimisation
+cache/
+opcache/
+.tmp/
+
+# Certificats SSL
+*.pem
+*.key
+*.crt
+*.csr
+
+# Fichiers système
+.php_cs.cache
+.php_cs.dist
+.phpunit.result.cache
+
+# WAMP/XAMPP spécifiques
+.wamp/
+.xampp/
+
+# Documentation générée
+docs/build/
+api-docs/
+
+# Performance et monitoring
+*.prof
+*.trace
